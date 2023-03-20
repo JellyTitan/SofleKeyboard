@@ -1,4 +1,4 @@
-21785760727159615
+21787440067984616
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83084,6 +83084,13 @@ CONN DEV
 4
 SofleChoc
 ProMicro
+
+
+0
+48
+24
+SofleChoc
+ProMicro_1
 
 
 0
