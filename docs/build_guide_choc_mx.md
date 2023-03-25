@@ -22,9 +22,9 @@ Differences from Brian Lows original choc:
    - Added drill holes above the mini-e hole to allow for easier tweezer placement.
    - Increased offset between front/back Pro-micro footprints to make soldering easier.
    - Added through-hole/Surface mount hybrid footprints for the per-switch diodes.
-   @todo - pull I2C bus?
+   - Simplified I2C Bus implementation.
+   - Moved _all_ mounting holes, both those between keys and those used for the screen cover.
    - Increased size of resistor footprints on the optional I2C bus. 
-   - Removed unused I2C bus jumper.
    - Added clearly labeled and easily accessible [Pimoroni trackball](https://shop.pimoroni.com/en-us/products/trackball-breakout) tie in footprint.
    - Added teardrops to decrease likelihood of acid traps during manufacture.
    - Added a VCC net to simplify routing.
@@ -36,7 +36,7 @@ Regarding top plates:
    - The top plates from Sofle v1, v2, RGB and Choc versions are not compatible, because the mounting holes have moved to accommodate Choc V2 footprints.
    - Do not use a top plate with the Choc V2 switches. The keycaps go nearly to the PCB when depressed, so using a plate would halt key travel before actuation.
    - The Choc V2 third pin hole has a tight tolerance to improve stability in the absence of a switch plate. The third pin on the choc V2 switches is not electrically relevant - you can rip it off and throw it in the trash if you like. 
-   - You can use Choc V1 switches with or without a switch plate. It's purely optional. I prefer not to use a switch plate because it makes swapping out choc switches far more difficult, and doesn't add enough stability to warrant the trade-off.
+   - You can use Choc V1 switches with or without a switch plate. It's purely optional. I prefer not to use a switch plate because it makes swapping out choc switches far more difficult, and doesn't add enough stability to warrant the trade-off. There is not yet a switchplate for this variant.
    - There is no bottom plate to minimize thickness.
 
 The Sofle Choc MX was designed by [Ryan Neff](https://github.com/JellyTitan) based on the excellent Sofle Choc designed by [Brian Low](https://github.com/brianlow) that is based on the fantastic Sofle RGB by [Dane Evans](https://github.com/DaneEvans) which was based on the original Sofle v2 by [Josef Adamčík](https://github.com/josefadamcik).
