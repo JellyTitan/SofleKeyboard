@@ -10,7 +10,7 @@ The Sofle Choc MX is a variant of the Sofle Choc that supports both [Kailh Choc 
 
 Like the standard Sofle Choc:
   - Kailh hotswap sockets are required. 
-  - Per-key RGB is optional and uses the relatively easy to solder SK6812 MINI-E LEDs.
+  - Per-key RGB remains optional and uses the relatively easy to solder SK6812 MINI-E LEDs.
   - The ProMicro pinout has _not_ changed, so both versions use the same firmware.
   - The board outline has _not_ changed.
   - Key placement has not changed.
@@ -22,12 +22,14 @@ Differences from Brian Lows original choc:
    - Added drill holes above the mini-e hole to allow for easier tweezer placement.
    - Increased offset between front/back Pro-micro footprints to make soldering easier.
    - Added through-hole/Surface mount hybrid footprints for the per-switch diodes.
-   - Increased size of resistor footprints on the optional I2C bus.
+   @todo - pull I2C bus?
+   - Increased size of resistor footprints on the optional I2C bus. 
    - Removed unused I2C bus jumper.
    - Added clearly labeled and easily accessible [Pimoroni trackball](https://shop.pimoroni.com/en-us/products/trackball-breakout) tie in footprint.
-   - Added "teardrops" to decrease likelihood of "acid traps" during manufacture.
+   - Added teardrops to decrease likelihood of acid traps during manufacture.
    - Added a VCC net to simplify routing.
    - Poka-yoke TRRS footprint by removing unnecessary solder masks.
+   - Removed reset switch and added reset labels. (Modern QMK can put the Promicro into bootloader mode with 'QK_BOOT' key. The hardware reset button would likely only be used once, if at all. There are now labels on the board to short the pins directly if a reset is needed).
    - Resolved the bulk of KiCad DRC violations. (A few edge clearance violations remain - but nothing electrically relevant).
 
 Regarding top plates:
@@ -72,8 +74,6 @@ The following is needed to build the keyboard:
   -- Through hole: 1N4148 through hole diode. These are common, any old one should do.
 
 - **2 TRRS connectors**. The same type which is used for Corne, Lily58 etc. Technically even TRS should work if you stick to the default serial communication.
-
-- **2 buttons** momentary, tactile, through-hole, 2 pins, I used one for DIP switches, 3x6x4.3mm. Technically optional: you can use metal tweezers whenever you need to reset the microcontroller.
 
 - **1 TRRS cable**. TRS should work if you stick with the default serial communications.
 
@@ -214,8 +214,6 @@ If you are socketing the OLED, install the 4 pin, half height female header on t
 ### Solder misc components
 
 Use tape to tack each component in place while flipping the board over to solder.
-
-Solder the reset switch.
 
 Solder the TRRS connector. You may need to bend the TRRS connector pins 90 degrees so they point down into the PCB. The R1 and R2 locations should remain empty.
 
