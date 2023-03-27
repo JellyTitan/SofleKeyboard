@@ -1,4 +1,4 @@
-21802563814015966
+21846437804080914
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59254,6 +59254,104 @@ solder jumper open
 0
 5
 3
+Kicad-Footprints-main
+Kailh_PG1232
+
+
+0
+6
+4
+Kicad-Footprints-main
+Kailh_socket_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+4
+2
+Kicad-Footprints-main
+ProMicro_v3_ble
+
+
+0
+26
+26
+Kicad-Footprints-main
+ProMicro_v3_nn
+
+
+0
+26
+26
+Kicad-Footprints-main
+SPDT_C128955
+
+
+0
+7
+4
+Kicad-Footprints-main
+SPDT_C128955r
+
+
+0
+7
+4
+Kicad-Footprints-main
+SW_PG1350_15_reversible_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+Kicad-Footprints-main
+SW_PG1350_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+2
+2
+Kicad-Footprints-main
+SW_PG1350_cut
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+0
+0
+Kicad-Footprints-main
+SW_PG1350_reversible_b
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+Kicad-Footprints-main
+SW_PG1350_reversible_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+Kicad-Footprints-main
+SW_PG1350_single_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+2
+2
+Kicad-Footprints-main
+SW_PG1350b
+Kailh "Choc" PG1350 keyswitch
+kailh,choc
+0
+2
+2
+Kicad-Footprints-main
+SW_PG1350v
+Kailh "Choc" PG1350 keyswitch
+kailh,choc
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -83034,6 +83132,13 @@ Choc_MX_Hotswap_SK6812MiniE
 36
 6
 SofleChoc
+DIODE Bender for 8mm SOFLE CHOC MX
+
+
+0
+0
+0
+SofleChoc
 D_SOD-123_DO-35_Hybrid_DoubleSided
 SOD-123
 SOD-123
@@ -89814,8 +89919,29 @@ ALL LOWs
 
 
 0
-13
+41
+5
+ergodonk_kicad_library
+ALL LOWs CANTOR
+
+
+0
+31
 2
+ergodonk_kicad_library
+ALL LOWs CANTOR 9-UP
+
+
+0
+35
+2
+ergodonk_kicad_library
+ALL LOWs V2
+
+
+0
+46
+4
 ergodonk_kicad_library
 AST1109MLTRQ
 
@@ -90167,6 +90293,13 @@ DIOAD1300W80L670D310
 2
 2
 ergodonk_kicad_library
+DIODE Bender for 8mm
+
+
+0
+2
+0
+ergodonk_kicad_library
 D_SOD-123_DO-35_Hybrid_DoubleSided
 SOD-123
 SOD-123
@@ -90180,6 +90313,27 @@ EVQWGD001-reversible
 0
 8
 6
+ergodonk_kicad_library
+Kailh-PG1425-X-Switch
+
+
+0
+2
+2
+ergodonk_kicad_library
+Kailh-PG1425-X-Switch Neff Cleanup
+
+
+0
+4
+2
+ergodonk_kicad_library
+Kailh-PG1425-X-Switch-reversible
+
+
+0
+4
+2
 ergodonk_kicad_library
 LongOvalCut
 
@@ -90208,6 +90362,13 @@ Low-Profile-Choc-MX_no_text_V2
 0
 3
 2
+ergodonk_kicad_library
+MJ-4PP-9_CANTOR_KITCHEN_SINK
+
+
+0
+8
+4
 ergodonk_kicad_library
 MUR340S_IN4001_TH
 
@@ -90523,6 +90684,34 @@ uxcell a14092600ux0438 solenoid
 0
 0
 0
+kailh-pg1425-x-switch
+Kailh-PG1425-X-Switch
+
+
+0
+2
+2
+kailh-pg1425-x-switch
+Kailh-PG1425-X-Switch-reversible
+
+
+0
+4
+2
+kailh-pg1425-x-switch
+MX-ALPS-Choc-X-straight-crane
+
+
+0
+11
+2
+kailh-pg1425-x-switch
+MX-ALPS-Choc-X-straight-oneside
+
+
+0
+7
+2
 kbd
 1pin_conn
 Resitance 3 pas
