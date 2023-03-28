@@ -12,7 +12,6 @@ Like the standard Sofle Choc:
   - Kailh hotswap sockets are required. 
   - Per-key RGB remains optional and uses the relatively easy to solder SK6812 MINI-E LEDs.
   - The ProMicro pinout has _not_ changed, so both versions use the same firmware.
-  - The board outline has _not_ changed.
   - Key placement has not changed.
 
 The Kailh Choc V2 differ from V1, in that V2's have an additional pin and a wider stem which necessitated rerouting the board. Otherwise, both switches do use the same hotswap sockets and are wired the same.
@@ -24,6 +23,9 @@ Differences from Brian Lows original choc:
    - Added through-hole/Surface mount hybrid footprints for the per-switch diodes.
    - Simplified I2C Bus implementation.
    - Moved _all_ mounting holes, both those between keys and those used for the screen cover.
+   - Added diode bender.
+   - Modified thumb cluster outline to accommodate 1.25u thumb keycap.
+   - Rounded board corners.
    - Increased size of resistor footprints on the optional I2C bus. 
    - Added clearly labeled and easily accessible [Pimoroni trackball](https://shop.pimoroni.com/en-us/products/trackball-breakout) tie in footprint.
    - Added teardrops to decrease likelihood of acid traps during manufacture.
