@@ -3,8 +3,7 @@ layout: default
 title: Sofle Keyboard - build guide (Choc MX)
 ---
 
-![Keyboard](images/build_guide_choc/keyboard.jpeg)
-![Keyboard Side View](images/build_guide_choc/keyboard_side.jpeg)
+![Keyboard](images/build_guide_choc_mx/choc_mx_outline.png)
 
 The Sofle Choc MX is a variant of the Sofle Choc that supports both [Kailh Choc v1 switches](https://deskthority.net/wiki/Kailh_PG1350_series) & [Kailh Choc v2 switches](https://deskthority.net/wiki/Kailh_PG1353_series), which support MX keycaps.
 
@@ -25,7 +24,7 @@ Differences from Brian Lows original choc:
    - Moved _all_ mounting holes, both those between keys and those used for the screen cover.
    - Added diode bender.
    - Modified thumb cluster outline to accommodate 1.25u thumb keycap.
-   - Rounded board corners.
+   - Rounded board corners with a consistent radius.
    - Increased size of resistor footprints on the optional I2C bus. 
    - Added clearly labeled and easily accessible [Pimoroni trackball](https://shop.pimoroni.com/en-us/products/trackball-breakout) tie in footprint.
    - Added teardrops to decrease likelihood of acid traps during manufacture.
@@ -45,24 +44,26 @@ The Sofle Choc MX was designed by [Ryan Neff](https://github.com/JellyTitan) bas
 
 ## Updated Build Guide and Kits
 
-I am maintaining a newer version of the build guide and usually have kits available at:
-
-[http://choc.brianlow.com](http://choc.brianlow.com)
+@todo - write this.
 
 
 ## Bill of materials
 
 The following is needed to build the keyboard:
 
-- **2 PCBs**. Send the zip from `/Gerbers/Choc_mx/choc-mx-gerber-pcb.zip` to a PCB fabrication service. The PCB should be 1.6mm thick. I used JLCPCB's default settings only customizing the PCB color. 
+- **2 PCBs**. Send the zip from `/Gerbers/Choc_mx/choc-mx-gerber-pcb.zip` to a PCB fabrication service. 
+The PCB should be 1.6mm thick. I used JLCPCB's default settings only customizing the PCB color. 
+@todo refresh Gerbers and update path
 @todo: Mention "Lead free" 
 @todo: Mention Jlcpcbpart number placement
 @todo: seperate jlcpcb gerber?
 @todo: revise this -> See [sourcing][sourcing].
 
 - **2 Pro Micro** boards or clones. 5v, 2x12 pins, ATmega32U4 microcontroller. **Don't** buy the Arduino Micro (a different pinout) or Arduino Mini (different microcontroller). You could also use Elite-C which basically Pro Micro with USB-C.
+Although QMK supports conversion to pi2040 boards, they are usually not 5v tolerant and may cause issues with the LED's. 
+@todo verify this.
 
-- **4x 12 pin headers (and optional sockets)** for Pro Micros. There are several ways to mount Pro Micros to the board. The male pin headers you most likely got with the board can be used to solder it directly to the board. This makes it hard to replace the board if it fails. The micro-USB connector is known to tear off. I socketed the Pro Micro using the diode legs approach [described at splitkb.com][promicrosocketing] with two 12-pin female headers. This is the option descibed in the build guide here. Lastly, [these spring pin headers][springpinheader] are used on similar keyboards and should give a compact, non-permanent connection but have been out of stock for a long time.
+- **4x 12 pin headers (and optional sockets)** for Pro Micros. There are several ways to mount Pro Micros to the board. The male pin headers you most likely got with the board can be used to solder it directly to the board. This makes it hard to replace the board if it fails. The micro-USB connector is known to tear off. ~~I socketed the Pro Micro using the diode legs approach [described at splitkb.com][promicrosocketing] with two 12-pin female headers. This is the option descibed in the build guide here. Lastly, [these spring pin headers][springpinheader] are used on similar keyboards and should give a compact, non-permanent connection but have been out of stock for a long time.~~
 @todo link to cheap sockets
 
 - **58 Kailh Choc keyboard switches**. Must be [Kailh Choc v1 switches (PG1350)](https://deskthority.net/wiki/Kailh_PG1350_series) of any color, or [Kailh Choc v2](https://deskthority.net/wiki/Kailh_PG1353_series) of any color. The `PG` prefix is often omitted. **Don't** buy , [Kailh Mini Choc](https://deskthority.net/wiki/Kailh_PG1232_series) or [Cherry MX](https://deskthority.net/wiki/Cherry_MX).
@@ -70,9 +71,15 @@ The following is needed to build the keyboard:
 - **58 Kailh Choc keyboard switch sockets**. Sockets are specific to the PG1350 switch. The PCB requires sockets. Switches cannot be soldered directly to the board.
 
 - **58 keycaps**. You can use either all in `1u` size but it looks nicer with two `1.5u` for the thumb keys.
+@todo link to choc v1 and choc v2 caps. 
+@todo - I heard that some MX caps dont' work with choc v2?
 
 - **58 diodes**. 
   -- Surface Mount: 1N4148W surface mount diodes in SOD123 package. Pick any common variation. I used `1N4148WTR` (Digi-Key 1655-1360-1-ND).
+  
+  Alternately, you can use through  hole diodes, which are easier to solder. These will be _mostly_ hidden under mx keycaps. 
+  @todo - modify thumb cluster diode placement? What about rotary diode?
+  
   -- Through hole: 1N4148 through hole diode. These are common, any old one should do.
 
 - **2 TRRS connectors**. The same type which is used for Corne, Lily58 etc. Technically even TRS should work if you stick to the default serial communication.
@@ -101,12 +108,12 @@ Optional components:
   - **2 diodes 1N4148W SMD or 1N4148 through-hole** the EC11 encoder shafts are pushable and can be used as configurable keys.
 
 - **LEDs**
-  - **58 SK6812 MINI-E RGB LEDs**. The LED body 3.2x2.8x1.7mm and with legs is 5.8x2.8. Avoid the non-MINI-E version without the legs. Purchase extra as they are delicate. If you have the option to use a heat gun and solder paste, this makes the install easier. Alternately, you can pay the pcb manufacturer to add them.
+  - **58 SK6812 MINI-E RGB LEDs**. The LED body 3.2x2.8x1.7mm and with legs is 5.8x2.8. Avoid the non-MINI-E version without the legs. Purchase extra as they are delicate. If you have the option to use a heat gun and solder paste, this makes the install easier. Alternately, you can pay the pcb manufacturer to add them. 
 
 - **Resistors**
   - **2x 4.7kOhm through hole resistors** These only needed if you want to use the less common I2C communication protocol between halves. They are installed in the R1/R2 spots. I have not tested an I2C setup. The firmware on this page uses serial communication and does not require the resistors.
 
-Components that are common on other Sofle variants but are **not** used on this Softle Choc MX: bottom plate, M2 spacers and screws.
+Components that are common on other Sofle variants but are **not** used on this Sofle Choc MX: bottom plate, top plate, M2 spacers and screws.
 
 @todo - rewrite left off here <<<<<
 ## Tools and materials
