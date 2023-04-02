@@ -7,6 +7,8 @@ title: Sofle Keyboard - build guide (Choc MX)
 
 The Sofle Choc MX is a variant of the Sofle Choc that supports both [Kailh Choc v1 switches](https://deskthority.net/wiki/Kailh_PG1350_series) & [Kailh Choc v2 switches](https://deskthority.net/wiki/Kailh_PG1353_series), which support MX keycaps.
 
+This guide is based off the [http://choc.brianlow.com](Sofle Choc guide by Brian Low). The components are layed out in a similar fashion.
+
 Like the standard Sofle Choc:
   - Kailh hotswap sockets are required. 
   - Per-key RGB remains optional and uses the relatively easy to solder SK6812 MINI-E LEDs.
@@ -40,7 +42,7 @@ Regarding top plates:
    - You can use Choc V1 switches with or without a switch plate. It's purely optional. I prefer not to use a switch plate because it makes swapping out choc switches far more difficult, and doesn't add enough stability to warrant the trade-off. There is not yet a switchplate for this variant.
    - There is no bottom plate to minimize thickness.
 
-The Sofle Choc MX was designed by [Ryan Neff](https://github.com/JellyTitan) based on the excellent Sofle Choc designed by [Brian Low](https://github.com/brianlow) that is based on the fantastic Sofle RGB by [Dane Evans](https://github.com/DaneEvans) which was based on the original Sofle v2 by [Josef Adamčík](https://github.com/josefadamcik).
+The Sofle Choc MX was designed by [Ryan Neff](https://github.com/JellyTitan) based on the excellent Sofle Choc designed by [Brian Low](https://github.com/brianlow) that is based on the fantastic Sofle RGB by [Dane Evans](https://github.com/DaneEvans) which was based on the original Sofle v2 by [Josef Adamčík](https://github.com/josefadamcik). The Choc V2 footprints came from the well-regarded foostan [kbd library](https://github.com/foostan/kbd). (The choc V2 footprint specs are loosy-goosey - foostan version is really dialed in).*
 
 ## Updated Build Guide and Kits
 
