@@ -32,8 +32,10 @@ Differences from Brian Lows original choc:
    - Added teardrops to decrease likelihood of acid traps during manufacture.
    - Added a VCC net to simplify routing.
    - Poka-yoke TRRS footprint by removing unnecessary solder masks.
+   - Tweaked diode placement for easier troubleshooting.
    - Removed reset switch and added reset labels. (Modern QMK can put the Promicro into bootloader mode with 'QK_BOOT' key. The hardware reset button would likely only be used once, if at all. There are now labels on the board to short the pins directly if a reset is needed).
    - Resolved the bulk of KiCad DRC violations. (A few edge clearance violations remain - but nothing electrically relevant).
+   - Added rally stripes.
 
 Regarding top plates:
    - The top plates from Sofle v1, v2, RGB and Choc versions are not compatible, because the mounting holes have moved to accommodate Choc V2 footprints.
