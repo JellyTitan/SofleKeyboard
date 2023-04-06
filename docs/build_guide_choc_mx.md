@@ -36,7 +36,8 @@ Differences from Brian Lows original choc:
    - Removed reset switch and added reset labels. (Modern QMK can put the Promicro into bootloader mode with 'QK_BOOT' key. The hardware reset button would likely only be used once, if at all. There are now labels on the board to short the pins directly if a reset is needed).
    - Resolved the bulk of KiCad DRC violations. (A few edge clearance violations remain - but nothing electrically relevant).
    - Added rally stripes.
-
+   - @todo Update i2c graphics?
+   
 Regarding top plates:
    - The top plates from Sofle v1, v2, RGB and Choc versions are not compatible, because the mounting holes have moved to accommodate Choc V2 footprints.
    - Do not use a top plate with the Choc V2 switches. The keycaps go nearly to the PCB when depressed, so using a plate would halt key travel before actuation.
@@ -44,7 +45,7 @@ Regarding top plates:
    - You can use Choc V1 switches with or without a switch plate. It's purely optional. I prefer not to use a switch plate because it makes swapping out choc switches far more difficult, and doesn't add enough stability to warrant the trade-off. There is not yet a switchplate for this variant.
    - There is no bottom plate to minimize thickness.
 
-The Sofle Choc MX was designed by [Ryan Neff](https://github.com/JellyTitan) based on the excellent Sofle Choc designed by [Brian Low](https://github.com/brianlow) that is based on the fantastic Sofle RGB by [Dane Evans](https://github.com/DaneEvans) which was based on the original Sofle v2 by [Josef Adamčík](https://github.com/josefadamcik). The Choc V2 footprints came from the well-regarded foostan [kbd library](https://github.com/foostan/kbd). (The choc V2 footprint specs are loosy-goosey - foostan version is really dialed in).*
+The Sofle Choc MX was designed by [Ryan Neff](https://github.com/JellyTitan), based on the excellent Sofle Choc designed by [Brian Low](https://github.com/brianlow), that is based on the fantastic Sofle RGB by [Dane Evans](https://github.com/DaneEvans) which was based on the original Sofle v2 by [Josef Adamčík](https://github.com/josefadamcik). The Choc V2 footprints came from the well-regarded foostan [kbd library](https://github.com/foostan/kbd). (The choc V2 footprint specs are loosy-goosey - foostan version is really dialed in).*
 
 ## Updated Build Guide and Kits
 
