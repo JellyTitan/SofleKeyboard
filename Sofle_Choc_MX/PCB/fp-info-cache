@@ -1,4 +1,4 @@
-21826448964168347
+21875357950905476
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59254,6 +59254,104 @@ solder jumper open
 0
 5
 3
+Kicad-Footprints-main
+Kailh_PG1232
+
+
+0
+6
+4
+Kicad-Footprints-main
+Kailh_socket_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+4
+2
+Kicad-Footprints-main
+ProMicro_v3_ble
+
+
+0
+26
+26
+Kicad-Footprints-main
+ProMicro_v3_nn
+
+
+0
+26
+26
+Kicad-Footprints-main
+SPDT_C128955
+
+
+0
+7
+4
+Kicad-Footprints-main
+SPDT_C128955r
+
+
+0
+7
+4
+Kicad-Footprints-main
+SW_PG1350_15_reversible_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+Kicad-Footprints-main
+SW_PG1350_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+2
+2
+Kicad-Footprints-main
+SW_PG1350_cut
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+0
+0
+Kicad-Footprints-main
+SW_PG1350_reversible_b
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+Kicad-Footprints-main
+SW_PG1350_reversible_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+Kicad-Footprints-main
+SW_PG1350_single_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+2
+2
+Kicad-Footprints-main
+SW_PG1350b
+Kailh "Choc" PG1350 keyswitch
+kailh,choc
+0
+2
+2
+Kicad-Footprints-main
+SW_PG1350v
+Kailh "Choc" PG1350 keyswitch
+kailh,choc
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -82998,231 +83096,112 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-SofleChoc
-1pin_conn
-Resitance 3 pas
-R
-0
-1
-1
-SofleChoc
-3x1header
-
-
-0
-3
-3
-SofleChoc
-Choc_Hotswap_Backup
-
-
-0
-4
-2
-SofleChoc
-Choc_Hotswap_SK6812MiniE
-
-
-0
-12
-6
-SofleChoc
+SofleChocMX
 Choc_MX_Hotswap_SK6812MiniE
 
 
 0
 41
 6
-SofleChoc
+SofleChocMX
 DIODE Bender for 8mm SOFLE CHOC MX
 
 
 0
 0
 0
-SofleChoc
+SofleChocMX
 D_SOD-123_DO-35_Hybrid_DoubleSided
 SOD-123
 SOD-123
 0
 10
 2
-SofleChoc
+SofleChocMX
 HOLE_M2_TH
 
 
 0
 1
 0
-SofleChoc
-Jumper
-
-
-0
-2
-2
-SofleChoc
-Kailh_socket_PG1350_reversible
-Kailh "Choc" PG1350 keyswitch reversible socket mount
-kailh,choc
-0
-12
-4
-SofleChoc
-Kailh_socket_PG1350_reversible_backup
-Kailh "Choc" PG1350 keyswitch reversible socket mount
-kailh,choc
-0
-4
-2
-SofleChoc
-LED
-
-
-0
-3
-3
-SofleChoc
+SofleChocMX
 M2_HOLE_PCB
 
 
 0
 1
 0
-SofleChoc
-MJ-4PP-9
-
-
-0
-8
-4
-SofleChoc
+SofleChocMX
 MJ-4PP-9_Choc_MX
 
 
 0
 8
 4
-SofleChoc
+SofleChocMX
 OLED_4Pin
 Connecteur 6 pins
 CONN DEV
 0
 4
 4
-SofleChoc
+SofleChocMX
 OLED_4Pin_Choc_MX
 Connecteur 6 pins
 CONN DEV
 0
 8
 4
-SofleChoc
+SofleChocMX
 OSHW-Logo_11.4x12mm_SilkScreen
 Open Source Hardware Logo
 Logo OSHW
 0
 0
 0
-SofleChoc
+SofleChocMX
 Pimaroni_PinHeader_1x05_P2.54mm_Vertical
 Through hole straight pin header, 1x05, 2.54mm pitch, single row
 Through hole pin header THT 1x05 2.54mm single row
 0
 5
 5
-SofleChoc
-ProMicro
-
-
-0
-48
-24
-SofleChoc
+SofleChocMX
 ProMicro_Choc_MX
 
 
 0
 48
 24
-SofleChoc
-RESISTOR_mini
-Resitance 3 pas
-R
-0
-2
-2
-SofleChoc
+SofleChocMX
 R_I2C_bus
 Resitance 3 pas
 R
 0
 2
 2
-SofleChoc
+SofleChocMX
 Reset bridge
 
 
 0
 3
 2
-SofleChoc
+SofleChocMX
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
 0
 7
 6
-SofleChoc
-SK6812MINI_and_cherry
-
-
-0
-12
-6
-SofleChoc
-SK6812MINI_underglow_dev
-
-
-0
-8
-4
-SofleChoc
-TACT_SWITCH_TVBP06
-
-
-0
-2
-2
-SofleChoc
+SofleChocMX
 Trace break
 
 
 0
 0
 0
-SofleChoc
-crkbd-diode
-Resitance 3 pas
-R
-0
-4
-2
-SofleChoc
-gecko-logo
-
-
-0
-0
-0
-SofleChoc
-jumper_data
-
-
-0
-2
-2
-SofleChoc
+SofleChocMX
 pimoroni_trackball
 Pimoroni I2C trackball breakout
 Through hole pin header THT 1x05 2.54mm single row
@@ -89898,7 +89877,21 @@ CANTOR MASTER KEY LOGO
 
 
 0
+1
 0
+ergodonk_kicad_library
+CANTOR MASTER KEY LOGO SILKS
+
+
+0
+0
+0
+ergodonk_kicad_library
+CANTOR MASTER KEY LOGO_UNDERSKIN
+
+
+0
+1
 0
 ergodonk_kicad_library
 Cantor_DS_TRRS-PJ-320A
@@ -90430,35 +90423,35 @@ V2_CherryMX_DS_Hotswap_miniE_1U_SEED
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DS_Hotswap_miniE_1U_SEED_LH
 
 
 0
-6
+11
 6
 ergodonk_kicad_library
 V2_CherryMX_DS_Hotswap_miniE_1U_SEED_RH
 
 
 0
-6
+11
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_1.5u
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_1.5u_LH_1u_RH
@@ -90486,28 +90479,28 @@ V2_CherryMX_DoubleSided_Hotswap_miniE_1.5u_vertical
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_1.25u
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_1.25u_Vertical
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_1.75u
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_1.75u_LH_1u_RH
@@ -90528,7 +90521,7 @@ V2_CherryMX_DoubleSided_Hotswap_miniE_1.75u_Vertical
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_1u_RH_ONLY
@@ -90542,7 +90535,7 @@ V2_CherryMX_DoubleSided_Hotswap_miniE_2.25u
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_2.25u_LH_2.75u_RH
@@ -90563,7 +90556,7 @@ V2_CherryMX_DoubleSided_Hotswap_miniE_2.75u
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_2.75u_RH_ONLY
@@ -90577,7 +90570,7 @@ V2_CherryMX_DoubleSided_Hotswap_miniE_2u
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 V2_CherryMX_DoubleSided_Hotswap_miniE_2u_RH_ONLY
@@ -90591,7 +90584,7 @@ V2_CherryMX_DoubleSided_Hotswap_miniE_2u_Vertical
 
 
 0
-22
+36
 6
 ergodonk_kicad_library
 pimoroni_trackball
@@ -90621,6 +90614,223 @@ uxcell a14092600ux0438 solenoid
 0
 0
 0
+footprints
+1pin_conn
+Resitance 3 pas
+R
+0
+1
+1
+footprints
+ArduinoProMicro-ZigZag-DoubleSided
+
+
+0
+24
+24
+footprints
+CherryMX_Hotswap
+
+
+0
+4
+2
+footprints
+CherryMX_Hotswap_1.5
+
+
+0
+4
+2
+footprints
+CherryMX_KailhLowProfile_Hotswap
+
+
+0
+8
+2
+footprints
+CherryMX_KailhLowProfile_Hotswap_1.5
+
+
+0
+8
+2
+footprints
+Diode_SOD123
+Diode, DO-41, SOD81, Horizontal, RM 10mm,
+Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,
+0
+2
+2
+footprints
+HOLE_M2_TH
+
+
+0
+1
+0
+footprints
+Jumper
+
+
+0
+2
+2
+footprints
+LED
+
+
+0
+3
+3
+footprints
+M2_HOLE_PCB
+
+
+0
+1
+0
+footprints
+MJ-4PP-9
+
+
+0
+8
+4
+footprints
+OLED_4Pin
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+footprints
+ProMicro
+
+
+0
+48
+24
+footprints
+RESISTOR_mini
+Resitance 3 pas
+R
+0
+2
+2
+footprints
+R_1206_DoubleSided
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
+2
+footprints
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+footprints
+SofleLogo
+
+
+0
+0
+0
+footprints
+SofleLogo1
+
+
+0
+0
+0
+footprints
+SofleLogo2
+
+
+0
+0
+0
+footprints
+SofleLogoSmall
+
+
+0
+0
+0
+footprints
+SofleV2Logo
+
+
+0
+0
+0
+footprints
+SofleV2Logo2
+
+
+0
+0
+0
+footprints
+TACT_SWITCH_TVBP06
+
+
+0
+2
+2
+footprints
+josef_adamcik_20mm_cu_mask
+
+
+0
+0
+0
+footprints
+josef_adamcik_20mm_silk
+
+
+0
+0
+0
+footprints
+jumper_data
+
+
+0
+2
+2
+kailh-pg1425-x-switch
+Kailh-PG1425-X-Switch
+
+
+0
+2
+2
+kailh-pg1425-x-switch
+Kailh-PG1425-X-Switch-reversible
+
+
+0
+4
+2
+kailh-pg1425-x-switch
+MX-ALPS-Choc-X-straight-crane
+
+
+0
+11
+2
+kailh-pg1425-x-switch
+MX-ALPS-Choc-X-straight-oneside
+
+
+0
+7
+2
 kbd
 1pin_conn
 Resitance 3 pas
