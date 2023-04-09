@@ -1,4 +1,4 @@
-21850205891165672
+21856930499283518
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83139,14 +83139,14 @@ SOD-123
 10
 2
 SofleChocLoud
-HOLE_M2_TH
+M2_HOLE_Keyplate
 
 
 0
 1
 0
 SofleChocLoud
-M2_HOLE_PCB
+M2_HOLE_PCB_through_hole
 
 
 0
@@ -83244,6 +83244,20 @@ rotary encoder
 7
 6
 SofleChocLoud
+RotaryEncoder_hole
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+0
+0
+SofleChocLoud
+Sofle_loud_top_plate
+
+
+0
+0
+0
+SofleChocLoud
 TO-220-3_Horizontal_TabUp
 TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Horizontal RM 2.54mm
@@ -83272,6 +83286,13 @@ Trace break
 0
 0
 SofleChocLoud
+keyswitch_hole
+
+
+0
+0
+0
+SofleChocLoud
 pimoroni_trackball
 Pimoroni I2C trackball breakout
 Through hole pin header THT 1x05 2.54mm single row
@@ -83280,6 +83301,13 @@ Through hole pin header THT 1x05 2.54mm single row
 5
 SofleChocLoud
 uxcell a14092600ux0438 solenoid
+
+
+0
+0
+0
+SofleChocLoud
+uxcell a14092600ux0438 solenoid cutout
 
 
 0
