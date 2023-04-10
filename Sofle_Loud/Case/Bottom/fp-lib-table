@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SofleLoud")(type "KiCad")(uri "/Users/ryanrayneff/Documents/SofleKeyboard/Sofle_Loud/Sofle_Loud/SofleLoud.pretty")(options "")(descr ""))
+)
