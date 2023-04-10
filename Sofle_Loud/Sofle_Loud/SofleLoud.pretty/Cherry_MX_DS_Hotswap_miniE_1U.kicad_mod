@@ -107,6 +107,8 @@
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 09a5d3e9-b139-41e7-9da2-832b025812e1))
   (fp_circle (center 0 4.93) (end 0 6.43)
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp ac94c7b2-792a-4b66-a293-f891e384945b))
+  (fp_rect (start -7 -7) (end 7 7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp 6d244f2f-1f90-45e9-95ed-996325a4dbd1))
   (pad "" np_thru_hole circle (at -5.08 0) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 3238b505-8643-445a-9d67-b4d3ca06f367))
   (pad "" np_thru_hole circle (at -5.08 0) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 9583bbe6-6191-4bab-8179-ee86895f47ec))
   (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 47cc8a6e-cd53-41f3-9cdc-a51fdca1b125))

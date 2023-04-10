@@ -1,4 +1,4 @@
-21855248885071197
+21856930567978404
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83139,18 +83139,18 @@ SOD-123
 10
 2
 SofleLoud
-HOLE_M2_TH
+M2_HOLE_Keyplate
 
 
 0
 1
 0
 SofleLoud
-M2_HOLE_PCB
+M2_HOLE_PCB_through_hole
 
 
 0
-1
+0
 0
 SofleLoud
 MJ-4PP-9_Choc_MX
@@ -83243,6 +83243,13 @@ rotary encoder
 0
 7
 6
+SofleLoud
+RotaryEncoder_hole
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+0
+0
 SofleLoud
 Sofle_loud_top_plate
 
