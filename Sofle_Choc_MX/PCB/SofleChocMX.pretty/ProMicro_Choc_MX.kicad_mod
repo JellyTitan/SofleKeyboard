@@ -169,4 +169,9 @@
       d7f10de6-dcbd-430a-bb0c-8b85aaf6a407
     )
   )
+  (model "${KIPRJMOD}/SofleChocMX.3dshapes/ProMicro.step"
+    (offset (xyz 0 1 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
 )

@@ -403,4 +403,19 @@
     ) (tstamp 82d861a3-3450-4588-a900-bfa47e3e7583))
   (pad "6" smd roundrect (at 8.275 -3.7) (size 2 2.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.12)
     (chamfer_ratio 0) (chamfer top_left bottom_left) (tstamp 0ee89497-2b22-42d6-92f5-b28870251657))
+  (model "${KIPRJMOD}/SofleChocMX.3dshapes/YS-SK6812MINI-E.step"
+    (offset (xyz 0 -4.7 -1.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+  (model "${KIPRJMOD}/SofleChocMX.3dshapes/PG1350-socket.STEP"
+    (offset (xyz -5 3.75 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
+  (model "${KIPRJMOD}/SofleChocMX.3dshapes/kailh_choc.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

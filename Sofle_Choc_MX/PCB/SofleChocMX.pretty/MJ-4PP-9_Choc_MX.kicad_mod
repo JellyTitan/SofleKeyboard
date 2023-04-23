@@ -41,9 +41,9 @@
     (chamfer_ratio 0.5) (chamfer top_left) (tstamp a93eb628-f7a8-418b-a0fb-a97301b0dbe9))
   (pad "4" thru_hole roundrect (at 0.35 11.8) (size 1.7 2.5) (drill oval 1 1.5) (layers "*.Cu" "F.Mask") (roundrect_rratio 0.5)
     (chamfer_ratio 0.5) (chamfer top_right) (tstamp d2e6c224-3eba-40e9-84e8-a731406f34ac))
-  (model "../../../../../../Users/pluis/Documents/Magic Briefcase/Documents/KiCad/3d/AB2_TRS_3p5MM_PTH.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 0.42 0.42 0.42))
-    (rotate (xyz 0 0 90))
+  (model "${KIPRJMOD}/SofleChocMX.3dshapes/PJ320A.step"
+    (offset (xyz -1.75 -8 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

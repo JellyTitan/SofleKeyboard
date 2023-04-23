@@ -85,4 +85,9 @@
       9c36b609-81c6-4890-8dd9-51ac719e2b2b
     )
   )
+  (model "${KIPRJMOD}/SofleChocMX.3dshapes/OLED-Module-128x64-with-Pins_and_socket.step"
+    (offset (xyz 4 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
