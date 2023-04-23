@@ -416,4 +416,19 @@
       ff51d06d-57b5-499a-9b68-31850f3748ce
     )
   )
+  (model "${KIPRJMOD}/SofleClick.3dshapes/YS-SK6812MINI-E.step"
+    (offset (xyz 0 -5 -1.75))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+  (model "${KIPRJMOD}/SofleClick.3dshapes/Kailh-CherryMX-Socket.step"
+    (offset (xyz -1.2 7.6 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+  (model "${KIPRJMOD}/SofleClick.3dshapes/CherryMX Switch.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

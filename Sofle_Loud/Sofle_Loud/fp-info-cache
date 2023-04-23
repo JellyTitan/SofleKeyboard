@@ -1,4 +1,4 @@
-21885609376556633
+21888973961467881
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83202,6 +83202,13 @@ Through hole pin header THT 1x05 2.54mm single row
 5
 5
 SofleChocLoud
+Pimaroni_PinHeader_1x05_P2.54mm_Vertical_v2
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+SofleChocLoud
 PinHeader_1x02_P2.54mm_L-Shaped
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
 Through hole pin header THT 1x02 2.54mm single row
@@ -90343,6 +90350,13 @@ DIODE Bender for 8mm
 0
 ergodonk_kicad_library
 D_SOD-123_DO-35_Hybrid_DoubleSided
+SOD-123
+SOD-123
+0
+10
+2
+ergodonk_kicad_library
+D_SOD-123_DO-35_Hybrid_DoubleSided_V2
 SOD-123
 SOD-123
 0
