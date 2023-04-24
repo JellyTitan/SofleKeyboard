@@ -1,4 +1,4 @@
-21888974053066850
+21892338806955608
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83313,6 +83313,20 @@ Through hole pin header THT 1x05 2.54mm single row
 0
 5
 5
+SofleChocLoud
+sofle_click_screen_plate
+
+
+0
+0
+0
+SofleChocLoud
+sofle_click_solenoid_plate
+
+
+0
+0
+0
 SofleChocLoud
 uxcell a14092600ux0438 solenoid
 
