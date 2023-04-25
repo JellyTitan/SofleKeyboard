@@ -1,51 +1,49 @@
 ---
 layout: default
-title: Sofle Keyboard - build guide (Choc MX)
+title: Sofle Keyboard - build guide (Click)
 ---
 
-![Keyboard](images/build_guide_choc_mx/choc_mx_outline.png)
+![Keyboard](images/build_guide_click/click_outline.png)
 
-The Sofle Choc MX is a variant of the Sofle Choc that supports both [Kailh Choc v1 switches](https://deskthority.net/wiki/Kailh_PG1350_series) & [Kailh Choc v2 switches](https://deskthority.net/wiki/Kailh_PG1353_series), which support MX keycaps.
+The Sofle Click is a variant of the Sofle V2 that uses Cherry MX Hot swap switches, supports RGB, 128x64 OLEDs, Solenoids, & piezzo buzzers.
 
 This guide is based off the [http://choc.brianlow.com](Sofle Choc guide by Brian Low). The components are layed out in a similar fashion.
 
-Like the standard Sofle Choc:
-  - Kailh hotswap sockets are required. 
+Like the standard Sofle:
+  - Hotswap sockets are required. 
   - Per-key RGB remains optional and uses the relatively easy to solder SK6812 MINI-E LEDs.
   - The ProMicro pinout has _not_ changed, so both versions use the same firmware.
   - Key placement has not changed.
 
-The Kailh Choc V2 differ from V1, in that V2's have an additional pin and a wider stem which necessitated rerouting the board. Otherwise, both switches do use the same hotswap sockets and are wired the same.
-Simplification and ease of assembly/manufacture were prioritized.
+This is similar to the Sofle RGB.
+I rerouted this board for simplification, and ease of assembly/manufacture were prioritized.
+I removed the optional I2C bus so that a TRRS or TRS cable could be used.
 
-Differences from Brian Lows original choc:
+Differences from the Sofle V2:
    - Added drill holes above the mini-e hole to allow for easier tweezer placement.
-   - Increased offset between front/back Pro-micro footprints to make soldering easier.
+   - Collapsed the double promicro footrpint to a single footprint to simplify routing. (One halfe of the board now has the promicro face up, the other face down.)
    - Added through-hole/Surface mount hybrid footprints for the per-switch diodes.
-   - Simplified I2C Bus implementation.
+   - Removed I2C Bus implementation.
    - Moved _all_ mounting holes, both those between keys and those used for the screen cover.
-   - Added diode bender.
    - Modified thumb cluster outline to accommodate 1.25u thumb keycap.
-   - Rounded board corners with a consistent radius.
-   - Increased size of resistor footprints on the optional I2C bus. 
+   - Rounded board corners with a consistent radius. 
    - Added clearly labeled and easily accessible [Pimoroni trackball](https://shop.pimoroni.com/en-us/products/trackball-breakout) tie in footprint.
    - Added teardrops to decrease likelihood of acid traps during manufacture.
    - Added a VCC net to simplify routing.
    - Poka-yoke TRRS footprint by removing unnecessary solder masks.
-   - Tweaked diode placement for easier troubleshooting.
+   - Tweaked diode placement & improved labeling for easier troubleshooting.
    - Removed reset switch and added reset labels. (Modern QMK can put the Promicro into bootloader mode with 'QK_BOOT' key. The hardware reset button would likely only be used once, if at all. There are now labels on the board to short the pins directly if a reset is needed).
    - Resolved the bulk of KiCad DRC violations. (A few edge clearance violations remain - but nothing electrically relevant).
-   - Added rally stripes.
-   - @todo Update i2c graphics?
+   - @todo Added rally stripes
+   - @todo add vent holes in tier 3 plates?
    
 Regarding top plates:
    - The top plates from Sofle v1, v2, RGB and Choc versions are not compatible, because the mounting holes have moved to accommodate Choc V2 footprints.
-   - Do not use a top plate with the Choc V2 switches. The keycaps go nearly to the PCB when depressed, so using a plate would halt key travel before actuation.
-   - The Choc V2 third pin hole has a tight tolerance to improve stability in the absence of a switch plate. The third pin on the choc V2 switches is not electrically relevant - you can rip it off and throw it in the trash if you like. 
-   - You can use Choc V1 switches with or without a switch plate. It's purely optional. I prefer not to use a switch plate because it makes swapping out choc switches far more difficult, and doesn't add enough stability to warrant the trade-off. There is not yet a switchplate for this variant.
-   - There is no bottom plate to minimize thickness.
+   - The solenoid & the screen are taller than the switch plate, so they have their own separate taller plates.
+   - Spacers are intended to pass through the main pcb and screw onto the bottom plates, top plates, and solenoid/oled plates. 
 
-The Sofle Choc MX was designed by [Ryan Neff](https://github.com/JellyTitan), based on the excellent Sofle Choc designed by [Brian Low](https://github.com/brianlow), that is based on the fantastic Sofle RGB by [Dane Evans](https://github.com/DaneEvans) which was based on the original Sofle v2 by [Josef Adamčík](https://github.com/josefadamcik). The Choc V2 footprints came from the well-regarded foostan [kbd library](https://github.com/foostan/kbd). (The choc V2 footprint specs are loosy-goosey - foostan version is really dialed in).*
+
+The Sofle Click was designed by [Ryan Neff](https://github.com/JellyTitan), based on the excellent Sofle Choc designed by [Brian Low](https://github.com/brianlow), that is based on the fantastic Sofle RGB by [Dane Evans](https://github.com/DaneEvans) which was based on the original Sofle v2 by [Josef Adamčík](https://github.com/josefadamcik). The Choc V2 footprints came from the well-regarded foostan [kbd library](https://github.com/foostan/kbd). 
 
 ## Updated Build Guide and Kits
 
