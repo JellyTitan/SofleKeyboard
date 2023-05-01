@@ -1,4 +1,4 @@
-21892344875048636
+21904127956722095
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83153,7 +83153,21 @@ M2_HOLE_Keyplate
 1
 0
 SofleChocLoud
+M2_HOLE_Keyplate 2
+
+
+0
+1
+0
+SofleChocLoud
 M2_HOLE_PCB_through_hole
+
+
+0
+0
+0
+SofleChocLoud
+M2_HOLE_PCB_through_hole 2
 
 
 0
@@ -83266,6 +83280,13 @@ rotary encoder
 0
 SofleChocLoud
 Sofle_loud_top_plate
+
+
+0
+0
+0
+SofleChocLoud
+Sofle_loud_top_plate 2
 
 
 0
@@ -90391,6 +90412,13 @@ Elite-C-ZigZag
 29
 29
 ergodonk_kicad_library
+HOLE_M2_Post_throughhole_from_sofle
+
+
+0
+1
+0
+ergodonk_kicad_library
 Kailh-PG1425-X-Switch
 
 
@@ -90538,6 +90566,13 @@ Through hole pin header THT 2x20 2.54mm double row
 172
 43
 ergodonk_kicad_library
+RPi_Pico_SMD_TH - Junco
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
+ergodonk_kicad_library
 RotaryEncoder_EC11_ergodonk_variant
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
@@ -90572,6 +90607,20 @@ RotaryEncoder_EC11_with_MX_hotswap_v3
 0
 6
 6
+ergodonk_kicad_library
+SK68XXMini Junco
+SK68XX Mini RGB LED
+SK68XX SK6812 SK6803 RGB LED
+0
+4
+4
+ergodonk_kicad_library
+SN74AHCT1G125 - Junco
+SN74AHCT1G125 Buffer Gate SOT-23
+level shifter
+0
+5
+5
 ergodonk_kicad_library
 SVG_import_test
 
