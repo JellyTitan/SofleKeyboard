@@ -1,4 +1,4 @@
-21937657502044439
+21954530345538634
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90048,6 +90048,20 @@ CANTOR MASTER KEY LOGO_UNDERSKIN
 1
 0
 ergodonk_kicad_library
+Cantor MX logo 3-switches ortho
+
+
+0
+0
+0
+ergodonk_kicad_library
+Cantor MX logo 3-switches top
+
+
+0
+0
+0
+ergodonk_kicad_library
 Cantor_DS_TRRS-PJ-320A
 
 
@@ -90349,6 +90363,13 @@ Choc_Hotswap_SK6812MiniE
 12
 6
 ergodonk_kicad_library
+Chunky_2040_footprint
+
+
+0
+4
+2
+ergodonk_kicad_library
 D3_TH_SMD_v3_ergodonk
 Resitance 3 pas
 R
@@ -90377,6 +90398,13 @@ SOD-123
 10
 2
 ergodonk_kicad_library
+D_SOD-123_DO-35_Hybrid_DoubleSided_V2
+SOD-123
+SOD-123
+0
+10
+2
+ergodonk_kicad_library
 EVQWGD001-reversible
 
 
@@ -90390,6 +90418,13 @@ Elite-C-ZigZag
 0
 29
 29
+ergodonk_kicad_library
+HOLE_M2_Post_throughhole_from_sofle
+
+
+0
+1
+0
 ergodonk_kicad_library
 Kailh-PG1425-X-Switch
 
@@ -90517,6 +90552,13 @@ OLED 128x64 Double sided
 4
 4
 ergodonk_kicad_library
+OLED SSD1306 128x64 UNVERIFIED
+
+
+0
+4
+4
+ergodonk_kicad_library
 OLED_4Pin_DS_64x128
 Connecteur 6 pins
 CONN DEV
@@ -90537,6 +90579,20 @@ Through hole pin header THT 2x20 2.54mm double row
 0
 172
 43
+ergodonk_kicad_library
+RPi_Pico_SMD_TH - Junco
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
+ergodonk_kicad_library
+RPi_Pico_SMD_TH - Junco -DS Sofle v3b
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+120
+40
 ergodonk_kicad_library
 RotaryEncoder_EC11_ergodonk_variant
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -90572,6 +90628,20 @@ RotaryEncoder_EC11_with_MX_hotswap_v3
 0
 6
 6
+ergodonk_kicad_library
+SK68XXMini Junco
+SK68XX Mini RGB LED
+SK68XX SK6812 SK6803 RGB LED
+0
+4
+4
+ergodonk_kicad_library
+SN74AHCT1G125 - Junco
+SN74AHCT1G125 Buffer Gate SOT-23
+level shifter
+0
+5
+5
 ergodonk_kicad_library
 SVG_import_test
 
