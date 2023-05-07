@@ -5,6 +5,20 @@ title: Sofle Keyboard - build guide (Click)
 
 ![Keyboard](images/build_guide_click/click_outline.png)
 
+BUILD LOG UPDATE:
+5-7-23
+* Revised Main board outline
+* Solenoid should now attach to bottom plate
+* Removed speaker 
+* Rerouted for new plate cutouts
+* Added puck tenting
+
+@todo:
+* rebuild all plates with solenoid attached to bottom
+* add gold rimmed holes
+* Swap in 64x128 screens
+* Wait for pico test board to come in.
+
 The Sofle Click is a variant of the Sofle V2 that uses Cherry MX Hot swap switches, supports RGB, 128x64 OLEDs, Solenoids, & piezzo buzzers.
 
 This guide is based off the [http://choc.brianlow.com](Sofle Choc guide by Brian Low). The components are layed out in a similar fashion.
