@@ -75,18 +75,6 @@
   (pad "1" thru_hole rect (at -2.54 -11.2375) (size 1.905 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 3df413da-64eb-4ec6-8a0d-403967777249))
   (pad "2" thru_hole oval (at 0 -11.2375) (size 1.905 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 27701952-d3b2-4a2e-883e-02062b0b688e))
   (pad "3" thru_hole oval (at 2.54 -11.2375) (size 1.905 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp eca9fd38-9363-4a69-a047-6b34b28525ed))
-  (group "" (id b2e77935-1dcb-41da-a2fd-971e18aa9ddd)
-    (members
-      27701952-d3b2-4a2e-883e-02062b0b688e
-      388034ca-8b76-48c2-9f60-4140367c75c2
-      3df413da-64eb-4ec6-8a0d-403967777249
-      3e74c4ac-d8e4-442e-b651-ed8f42c18567
-      5b2fdf7c-310d-47e3-98b9-b0fc20ce870f
-      87a6a110-74a3-42b5-bea3-ebbc4392b18a
-      a7e58aa7-6b8d-4285-9a45-ef112365eb87
-      eca9fd38-9363-4a69-a047-6b34b28525ed
-    )
-  )
   (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabUp.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
