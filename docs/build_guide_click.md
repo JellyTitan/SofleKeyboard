@@ -4,6 +4,14 @@ title: Sofle Keyboard - build guide (Click)
 ---
 
 ![Keyboard](images/build_guide_click/click_outline.png)
+BUILD LOG UPDATE:
+5-22-23
+Lessons learned/TODO 
+* Diode is under keyplate, harder to solder. Can it go elsewhere?
+* Soleniod jack is at a dumb spot. it sticks out either way. tuck it up under so you can use dupont connectors.
+* The aluminum finish is weird where you tried to go "No solder mask" on the aluminum plates. Maybe a primer? Just do normal stuff
+* The USB-c promicro sticks out farther than micro usb.
+* The 4 holes in the keyplate need to be smaller, otherwise the posts go through, and that sucks.
 
 BUILD LOG UPDATE:
 5-7-23
